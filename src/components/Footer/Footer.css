@@ -1,0 +1,22 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.Footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    width: 40%;
+    justify-content: space-evenly;
+
+}
+
+.Footer ul li a{
+    color:  rgb(131, 176, 149);
+}
+
+ 
+ 

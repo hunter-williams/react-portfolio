@@ -1,0 +1,40 @@
+.Card{
+    background-color: lightgrey;
+    border-radius: 5%;
+    flex: 50px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Card img{
+    max-width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    /* height: 40%; */
+    width: 100%;
+}
+
+.Card h2{
+    margin: 0;
+}
+ 
+.Card .Description{
+    background-color: white;
+    padding: 10px 0;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.Card div div {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+ 

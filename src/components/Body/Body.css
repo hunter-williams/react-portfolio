@@ -1,0 +1,85 @@
+.Body{
+    width: 80%;
+    margin: 5vw auto;
+}
+
+.Body section{
+    margin: 10% auto;
+}
+
+.Body h1{
+    font-size: 3rem;
+    /* margin: 0; */
+}
+
+
+/* ===== ABOUT ME ===== */
+
+.Body #AboutMe{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Body #AboutMe div{
+    text-align: left;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.Body #AboutMe h1{
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.Body #AboutMe a{
+    padding: 10px 30px;
+    background-color: rgb(131, 176, 149);
+    /* border: 2px solid rgb(68, 102, 82); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.Body #AboutMe a:hover{
+    background-color: rgb(68, 102, 82);;
+}
+
+
+.Body #AboutMe img{
+    width: 20rem;
+    border-radius: 50%;
+}
+
+/* ===== PORTFOLIO ===== */
+
+.Body #Portfolio .ProjectContainer{
+    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-gap: 5%;
+}
+
+
+/* ===== CONTACT ===== */
+
+.Body #Contact textarea{
+    width: 70%;
+    margin: 3% auto;
+}
+.Body #Contact .formHeader{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Body #Contact .formHeader input{
+    width: 36%;
+}
+.Body #Contact .formFooter input{
+    margin: 0 2%;
+}
+.Body #Contact input{
+    padding: 1% 5%;
+}
+

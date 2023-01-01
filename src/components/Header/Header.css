@@ -1,0 +1,28 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+    position: sticky;
+    top: 0;
+    background-color:rgb(37, 37, 37);
+    font-family: monospace;
+}
+
+.Header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 70%;
+    align-items: center;
+}
+
+.Header ul li {
+    margin: 0 2%;
+}
+
+.Header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.75em;
+}
+ 
